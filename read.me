@@ -1,0 +1,18 @@
+Readme - Loja de Livros Online
+
+1. Problema de Negócios que o Código Resolve
+A Loja de Livros Online tem a necessidade de gerenciar o estoque de livros e oferecer diferentes formatos de livros para seus clientes. Para isso, é necessário um sistema que permita o gerenciamento de livros físicos e digitais e que possa calcular preços, descontos, frete e tamanho de arquivos.
+
+2. Como Essa Solução Resolve o Problema
+O código apresentado oferece uma solução para o gerenciamento de livros físicos e digitais. Através de uma hierarquia de classes, é possível representar diferentes tipos de livros e realizar cálculos específicos para cada formato.
+
+A classe Livro é a classe pai que possui atributos básicos como título, autor, ano de publicação e preço. A partir dela, foram criadas duas subclasses: LivroFisico e LivroDigital.
+
+A classe LivroFisico possui um atributo adicional, o peso, e métodos para calcular o frete com base no peso do livro e no valor do frete por quilograma passado como parâmetro.
+
+Já a classe LivroDigital possui um atributo adicional, o formato, e um método para calcular o tamanho do arquivo em megabytes com base no número de páginas passado como parâmetro.
+
+Com essas classes e métodos, é possível gerenciar e oferecer diferentes formatos de livros para os clientes da loja, além de calcular preços, descontos, frete e tamanho de arquivos.
+
+3. Conclusão
+O código apresentado é uma solução simples e básica para o gerenciamento de livros físicos e digitais em uma loja online. Para uma solução mais completa e robusta, é necessário considerar outros aspectos como gerenciamento de estoque, sistema de pagamentos, interface para clientes e outras funcionalidades.
